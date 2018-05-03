@@ -1,0 +1,47 @@
+.simple-tabs-carousel-container {
+  margin: auto;
+  max-height: auto;
+  background: transparent;
+  overflow: hidden;
+  max-width: 300px;
+  position: relative;
+}
+.simple-tabs-carousel-container:after, .simple-tabs-carousel-container:before {
+  display: block;
+  height: 0px;
+  width: 100%;
+  clear: both;
+  content: '';
+  padding: 10px;
+}
+.simple-tabs-carousel-container .tab-previous {
+  height: 100%;
+  position: absolute;
+  left: 0px;
+}
+.simple-tabs-carousel-container .tab-next {
+  right: 0px;
+  position: absolute;
+  float: right;
+}
+.simple-tabs-carousel-container .tabs-container {
+  width: 200px;
+  margin: auto;
+  overflow: hidden;
+}
+.simple-tabs-carousel-container .simple-tabs {
+  float: left;
+  width: 500%;
+  list-style: none;
+  overflow: hidden;
+  transition: transform 1s ease-out;
+}
+.simple-tabs-carousel-container .simple-tabs .tab {
+  width: 50px;
+  text-align: center;
+  float: left;
+  background: transparent;
+}
+.simple-tabs-carousel-container .simple-tabs .tab.active {
+  background: skyblue;
+}

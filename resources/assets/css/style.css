@@ -1,0 +1,73 @@
+body
+
+{
+	background-color: #222323;
+}
+
+
+.login-logo
+{
+	height: 120px;
+}
+
+@media only screen and (max-width: 600px) {
+	.login-logo
+	{
+		height: 60px;
+	}
+}
+
+.modal-heading{
+	padding: 50px;
+}
+.modal-content{
+	background-color: #222323;
+	-webkit-box-shadow: 0 5px 15px rgba(0,0,0,0);
+	-moz-box-shadow: 0 5px 15px rgba(0,0,0,0);
+	-o-box-shadow: 0 5px 15px rgba(0,0,0,0);
+	box-shadow: 0 5px 15px rgba(0,0,0,0);
+	-webkit-border-radius: 0px !important;
+	-moz-border-radius: 0px !important;
+	border-radius: 0px !important; 
+}
+
+.btn-link{
+	color:white;
+}
+
+.modal-heading h2{
+	color:#ffffff;
+}
+
+.text-line {
+	background-color: transparent;
+	color: #eeeeee;
+	outline: none;
+	outline-style: none;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: solid #bcbcbc 1px;
+	padding: 3px 10px;
+}
+
+.input-group-addon
+{
+	background-color: transparent;
+	color: #eeeeee;
+	outline: none;
+	outline-style: none;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: solid #bcbcbc 1px;
+	padding: 3px 10px;
+}
+
+.btn-login{
+	background-color:transparent;
+	border-color: white;
+	border-radius: 15px;
+	padding: 7px 35px;
+
+}
